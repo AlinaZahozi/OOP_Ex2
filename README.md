@@ -86,13 +86,17 @@ The function below loads a graph to this graph algorithm.if the file was success
 
  # how to use the project:
  the buttons:
+ 
  graph G1,graph G2 and graph G3
+ 
  will show you this options:
  
  <img width="908" alt="manu" src="https://user-images.githubusercontent.com/93199677/145783702-ee4bd63b-bf45-42cf-a67e-54452816cdf7.png">
 
 the buttons:
+
 show graph G1,show graph G2 and show graph G3
+
 will show you this options:
 <img width="956" alt="graph1" src="https://user-images.githubusercontent.com/93199677/145784150-92c32982-555f-4614-a808-c174311cb0d7.png">
 
