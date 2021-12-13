@@ -74,12 +74,9 @@ The function below loads a graph to this graph algorithm.if the file was success
  # how to run the jar file:
    1.douwnload the zip file.
    
-   
    2.open cmd. and with the help of 'cd' go to the path of the location of the file you downloaded.
    
-   
    3.write 'java -jar Ex2.jar G1.json'
-   
    
    4.click enter, and then the project will open.
    
