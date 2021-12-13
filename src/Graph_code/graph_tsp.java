@@ -38,7 +38,7 @@ public class graph_tsp extends JFrame implements ActionListener {
         if (n != null) {
             String m = "";
             for (NodeData j : n) {
-                m = m+ j.getKey() + "----> ";
+                m = m+ j.getKey() + ":";
             }
             JOptionPane.showMessageDialog(null ,m);
             this.dispose();
@@ -72,7 +72,7 @@ public class graph_tsp extends JFrame implements ActionListener {
                     citie.add(d);
                 }
                 else {
-                    JOptionPane.showMessageDialog(null,"this node " + t + "does not exist in this graph" );
+                    JOptionPane.showMessageDialog(null,"this node " + t + "does not exist" );
                     this.dispose();
                     return;
                 }

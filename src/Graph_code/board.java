@@ -18,13 +18,17 @@ public class board extends JPanel {
 
 
     public void sd(NodeData forw){
-        double we = Math.min(smallestvaluex, forw.getLocation().x());
+        double pu = forw.getLocation().x();
+        double we = Math.min(smallestvaluex, pu);
         smallestvaluex = we;
-        double re = Math.min(smallestvalusey, forw.getLocation().y());
+        double wq = forw.getLocation().y();
+        double re = Math.min(smallestvalusey, wq);
         smallestvalusey = re;
-        double gy = Math.max(biggestvaluex, forw.getLocation().x());
+        double gh = forw.getLocation().x();
+        double gy = Math.max(biggestvaluex,gh );
         biggestvaluex = gy;
-        double yo = Math.max(biggestvaluey, forw.getLocation().y());
+        double nj = forw.getLocation().y();
+        double yo = Math.max(biggestvaluey, nj);
         biggestvaluey = yo;
     }
     //board constructor
@@ -35,11 +39,14 @@ public class board extends JPanel {
         main(graph);
     }
     public void ed(NodeData forw){
-        smallestvaluex = forw.getLocation().x();
-        smallestvalusey = forw.getLocation().y();
-        biggestvaluex = forw.getLocation().x();
-        biggestvaluey = forw.getLocation().y();
-
+        double t = forw.getLocation().x();
+        smallestvaluex = t;
+        double y = forw.getLocation().y();
+        smallestvalusey = y;
+        double u = forw.getLocation().x();
+        biggestvaluex = u;
+        double r =forw.getLocation().y();
+        biggestvaluey = r;
     }
 
     //Realization of graphical interface and visibility
@@ -58,20 +65,24 @@ public class board extends JPanel {
         Iterator<EdgeData> iter = this.g.edgeIter();
         for (Iterator<EdgeData> it3 = iter; it3.hasNext(); ) {
             EdgeData edge = it3.next();
-            double firstx = this.g.getNode(edge.getSrc()).getLocation().x();
+            double pod = this.g.getNode(edge.getSrc()).getLocation().x();
+            double firstx = pod;
             double h = (firstx - smallestvaluex);
             double hi = h*sx;
             firstx = (hi + 10);
-            double firsty = this.g.getNode(edge.getSrc()).getLocation().y();
+            double lok = this.g.getNode(edge.getSrc()).getLocation().y();
+            double firsty = lok;
             double pl = (firsty - smallestvalusey);
             double w = pl *sy;
             double q = w +10;
             firsty = q;
-            double endx = this.g.getNode(edge.getDest()).getLocation().x();
+            double rot = this.g.getNode(edge.getDest()).getLocation().x();
+            double endx = rot;
             double yu = (endx - smallestvaluex);
             double yt = yu * sx;
             endx = (yt + 10);
-            double endy = this.g.getNode(edge.getDest()).getLocation().y();
+            double yot = this.g.getNode(edge.getDest()).getLocation().y();
+            double endy = yot;
             double qw = (endy - smallestvalusey);
             double xj = (qw*sy);
             endy = (xj + 10);
@@ -136,9 +147,11 @@ public class board extends JPanel {
         Iterator<NodeData> iterator = this.g.nodeIter();
         for (Iterator<NodeData> it = iterator; it.hasNext(); ) {
             NodeData n = it.next();
-            double x =  ((n.getLocation().x() - smallestvaluex));
+            double ty = n.getLocation().x();
+            double x =  ((ty - smallestvaluex));
             int z = (int) (x* sx);
-            double y =  (n.getLocation().y() - smallestvalusey);
+            double we = n.getLocation().y();
+            double y =  (we - smallestvalusey);
             int h =  (int) (y* sy);;
             g.setColor(Color.green);
             g.fillOval(z, h, 30, 30);
