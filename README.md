@@ -107,6 +107,10 @@ OXFORD COLLEGE | Directed and Edge-Weighted Graphs:
 In this site you can find information about Directed and Edge-Weighted Graphs , and the best data structure for it.
 link:http://math.oxford.emory.edu/site/cs171/directedAndEdgeWeightedGraphs/
 
+Explanation of Dijkstra’s algorithm for finding the shortest path between one vertex in a graph and another.
+This video helped us to implement our Dijkstra class.
+link:https://www.youtube.com/watch?v=pVfj6mxhdMw
+
 # Credits:
 1. Mishell dubovitski.
 2. Alina zakhozha.
