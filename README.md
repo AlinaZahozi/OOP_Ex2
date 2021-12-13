@@ -72,7 +72,7 @@ The function below loads a graph to this graph algorithm.if the file was success
 
 
  # how to run the jar file:
-   1.douwnload the zip file.
+   1.download the zip file.
    
    2.open cmd. and with the help of 'cd' go to the path of the location of the file you downloaded.
    
@@ -84,7 +84,7 @@ The function below loads a graph to this graph algorithm.if the file was success
  
 <img width="665" alt="cmd" src="https://user-images.githubusercontent.com/93199677/145782915-ba8ffe2b-672d-4486-9742-497c1d60bf80.png">
 
- # how to run the project:
+ # how to use the project:
  the buttons:
  graph G1,graph G2 and graph G3
  will show you this options:
