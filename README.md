@@ -120,6 +120,9 @@ Explanation of Dijkstra’s algorithm for finding the shortest path between one 
 This video helped us to implement our Dijkstra class.
 link:https://www.youtube.com/watch?v=pVfj6mxhdMw
 
+Explanation on performing Depth–first search (DFS) to check if A directed graph is strongly connected.
+link:https://www.techiedelight.com/check-given-graph-strongly-connected-not/
+
 # Credits:
 1. Mishell dubovitski.
 2. Alina zakhozha.
